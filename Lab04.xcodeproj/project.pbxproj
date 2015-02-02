@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		B08914D21A7EA64B003BB3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914D11A7EA64B003BB3EC /* main.m */; };
 		B08914D51A7EA64B003BB3EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914D41A7EA64B003BB3EC /* AppDelegate.m */; };
-		B08914D81A7EA64B003BB3EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914D71A7EA64B003BB3EC /* ViewController.m */; };
+		B08914D81A7EA64B003BB3EC /* SecCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914D71A7EA64B003BB3EC /* SecCount.m */; };
 		B08914DB1A7EA64B003BB3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08914D91A7EA64B003BB3EC /* Main.storyboard */; };
 		B08914DD1A7EA64B003BB3EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08914DC1A7EA64B003BB3EC /* Images.xcassets */; };
 		B08914E01A7EA64B003BB3EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08914DE1A7EA64B003BB3EC /* LaunchScreen.xib */; };
 		B08914EC1A7EA64B003BB3EC /* Lab04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914EB1A7EA64B003BB3EC /* Lab04Tests.m */; };
+		B08914F71A7EAA70003BB3EC /* VarGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914F61A7EAA70003BB3EC /* VarGlobal.m */; };
+		B08914FA1A7EAE56003BB3EC /* classBD.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914F91A7EAE56003BB3EC /* classBD.m */; };
+		B08914FC1A7EAF54003BB3EC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B08914FB1A7EAF54003BB3EC /* libsqlite3.dylib */; };
+		B08914FF1A7EB881003BB3EC /* TableResults.m in Sources */ = {isa = PBXBuildFile; fileRef = B08914FE1A7EB881003BB3EC /* TableResults.m */; };
+		B08915021A7EB8DF003BB3EC /* CellResults.m in Sources */ = {isa = PBXBuildFile; fileRef = B08915011A7EB8DF003BB3EC /* CellResults.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,23 @@
 		B08914D11A7EA64B003BB3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B08914D31A7EA64B003BB3EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B08914D41A7EA64B003BB3EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B08914D61A7EA64B003BB3EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B08914D71A7EA64B003BB3EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B08914D61A7EA64B003BB3EC /* SecCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecCount.h; sourceTree = "<group>"; };
+		B08914D71A7EA64B003BB3EC /* SecCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecCount.m; sourceTree = "<group>"; };
 		B08914DA1A7EA64B003BB3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08914DC1A7EA64B003BB3EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B08914DF1A7EA64B003BB3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B08914E51A7EA64B003BB3EC /* Lab04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab04Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08914EA1A7EA64B003BB3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08914EB1A7EA64B003BB3EC /* Lab04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab04Tests.m; sourceTree = "<group>"; };
+		B08914F51A7EAA70003BB3EC /* VarGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarGlobal.h; sourceTree = "<group>"; };
+		B08914F61A7EAA70003BB3EC /* VarGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarGlobal.m; sourceTree = "<group>"; };
+		B08914F81A7EAE56003BB3EC /* classBD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classBD.h; sourceTree = "<group>"; };
+		B08914F91A7EAE56003BB3EC /* classBD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classBD.m; sourceTree = "<group>"; };
+		B08914FB1A7EAF54003BB3EC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B08914FD1A7EB881003BB3EC /* TableResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableResults.h; sourceTree = "<group>"; };
+		B08914FE1A7EB881003BB3EC /* TableResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableResults.m; sourceTree = "<group>"; };
+		B08915001A7EB8DF003BB3EC /* CellResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellResults.h; sourceTree = "<group>"; };
+		B08915011A7EB8DF003BB3EC /* CellResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellResults.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08914FC1A7EAF54003BB3EC /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		B08914C31A7EA64B003BB3EC = {
 			isa = PBXGroup;
 			children = (
+				B08914FB1A7EAF54003BB3EC /* libsqlite3.dylib */,
 				B08914CE1A7EA64B003BB3EC /* Lab04 */,
 				B08914E81A7EA64B003BB3EC /* Lab04Tests */,
 				B08914CD1A7EA64B003BB3EC /* Products */,
@@ -83,8 +99,16 @@
 			children = (
 				B08914D31A7EA64B003BB3EC /* AppDelegate.h */,
 				B08914D41A7EA64B003BB3EC /* AppDelegate.m */,
-				B08914D61A7EA64B003BB3EC /* ViewController.h */,
-				B08914D71A7EA64B003BB3EC /* ViewController.m */,
+				B08915001A7EB8DF003BB3EC /* CellResults.h */,
+				B08915011A7EB8DF003BB3EC /* CellResults.m */,
+				B08914FD1A7EB881003BB3EC /* TableResults.h */,
+				B08914FE1A7EB881003BB3EC /* TableResults.m */,
+				B08914F81A7EAE56003BB3EC /* classBD.h */,
+				B08914F91A7EAE56003BB3EC /* classBD.m */,
+				B08914F51A7EAA70003BB3EC /* VarGlobal.h */,
+				B08914F61A7EAA70003BB3EC /* VarGlobal.m */,
+				B08914D61A7EA64B003BB3EC /* SecCount.h */,
+				B08914D71A7EA64B003BB3EC /* SecCount.m */,
 				B08914D91A7EA64B003BB3EC /* Main.storyboard */,
 				B08914DC1A7EA64B003BB3EC /* Images.xcassets */,
 				B08914DE1A7EA64B003BB3EC /* LaunchScreen.xib */,
@@ -219,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B08914D81A7EA64B003BB3EC /* ViewController.m in Sources */,
+				B08914F71A7EAA70003BB3EC /* VarGlobal.m in Sources */,
+				B08914FA1A7EAE56003BB3EC /* classBD.m in Sources */,
+				B08914D81A7EA64B003BB3EC /* SecCount.m in Sources */,
 				B08914D51A7EA64B003BB3EC /* AppDelegate.m in Sources */,
+				B08915021A7EB8DF003BB3EC /* CellResults.m in Sources */,
 				B08914D21A7EA64B003BB3EC /* main.m in Sources */,
+				B08914FF1A7EB881003BB3EC /* TableResults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
